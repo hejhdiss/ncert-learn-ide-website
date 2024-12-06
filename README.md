@@ -36,7 +36,10 @@ Click [here](https://hejhdiss.github.io/ncert-learn-ide-website) to download the
 - **Operating System**: Windows 10/11
 - **Processor**: 64-bit
 - **RAM**: 2 GB (minimum)
-- **Disk Space**: 200 MB (for IDE and embedded Python)
+- **Python**: 3.13.0
+- **Compilers**: GCC and G++
+- **Disk Space**: 940 MB (for IDE, embedded Python, GCC, and G++)
+- **Download Size**: 147 MB
 
 ---
 
