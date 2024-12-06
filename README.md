@@ -45,7 +45,7 @@ Click [here](https://hejhdiss.github.io/ncert-learn-ide-website) to download the
 
 ## 🖋 About the Author
 
-**Muhammed Shafin P** is a passionate software developer and an advocate for educational technology. With a deep interest in Python programming, he has dedicated his work to creating tools that make coding accessible to everyone.
+**Muhammed Shafin P** is a passionate software developer and a 12th-grade student from Chungathara, Nilambur, Kerala. With a deep interest in Python programming and technology, he has dedicated his efforts to creating tools that simplify learning and make coding accessible to everyone.
 
 For support, reach out at [hejhdiss@gmail.com](mailto:hejhdiss@gmail.com).
 
