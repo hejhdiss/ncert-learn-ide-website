@@ -8,11 +8,12 @@
 
 ## ✨ Features
 
-- **Code Editor**: Write Python scripts with IDE Features.
+- **Code Editor**: Write Python scripts Core IDE Features With Syntax Highlights.
 - **Integrated Terminal**: Run Python code directly with a single click.
 - **Embedded Python**: No need to install Python separately—it’s built right in!
 - **Simple Interface**: Beginner-friendly layout, ideal for learning and teaching Python.
 - **Cross-Platform HTML Execution**: Easily open HTML files in your browser.
+- **GCC and G++**:Includes GCC and G++ compilers for running and building C and C++ programs.
 
 ---
 
