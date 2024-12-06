@@ -2,7 +2,7 @@
 
 ![NCERT Learn IDE Logo](./logo.ico "NCERT Learn IDE Logo")
 
-**NCERT Learn IDE** is an all-in-one, lightweight Python Integrated Development Environment (IDE) designed specifically for beginners, students, and educators. It comes pre-packaged with an embedded Python interpreter, allowing users to start coding right away without external dependencies.
+**NCERT Learn IDE** is an all-in-one, lightweight Python Integrated Development Environment (IDE) designed specifically for beginners, students, and educators. It comes pre-packaged with an embedded Python interpreter and GCC and G++ compilers, allowing users to start coding right away without external dependencies.
 
 ---
 
