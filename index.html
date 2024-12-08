@@ -55,6 +55,52 @@
             font-size: 1.1rem;
             line-height: 1.6;
         }
+        /* Modal styling */
+        .modal-content {
+            background-color: #f4f4f9;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .modal-header {
+            background-color: #33adff;
+            color: white;
+            border-bottom: 2px solid #0062cc;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .modal-footer {
+            background-color: #f4f4f9;
+        }
+        .modal-body p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        .modal-body a {
+            text-decoration: none;
+            display: block;
+            margin-bottom: 15px;
+            font-size: 18px;
+            padding: 12px;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .modal-body a:hover {
+            opacity: 0.9;
+        }
+
+        .google-btn {
+            background-color: #4285F4;
+        }
+
+        .mega-btn {
+            background-color: #004B87;
+        }
+        .certify-btn {
+            background-color: #00f2ff;
+        }
     </style>
 </head>
 <body>
@@ -101,7 +147,7 @@
     <div id="download" class="container text-center">
         <h2>Download NCERT Learn IDE</h2>
         <p>Click the button below to download NCERT Learn IDE and start coding!</p>
-        <a href="https://drive.google.com/file/d/1kk1z87nro0evuI-ktlyheHorqsGD38C8/view?usp=drive_link" class="download-btn" download>Download IDE <i class="fas fa-download"></i></a>
+        <a  data-bs-toggle="modal" data-bs-target="#downloadModal"class="download-btn" download>Download IDE <i class="fas fa-download"></i></a>
     </div>
 
     <!-- Requirements Section -->
@@ -113,10 +159,8 @@
             <li><strong>RAM:</strong> 2 GB (minimum)</li>
             <li><strong>Python:</strong> 3.13.0</li>
             <li><strong>Compilers:</strong> GCC and G++</li>
-            <li><strong>Disk Space:</strong> 940 MB (for IDE, embedded Python, GCC, and G++)</li>
-            <li><strong>Download Size:</strong> 147 MB</li>
-
- 
+            <li><strong>Disk Space:</strong> 886 MB (for IDE, embedded Python, GCC,G++ and without python environment)</li>
+            <li><strong>Download Size:</strong> 136 MB</li>
         </ul>
     </div>
 
@@ -137,6 +181,28 @@
             <a href="mailto:hejhdiss@gmail.com"><i class="fas fa-envelope"></i> Support Email</a>
         </p>
     </footer>
+       <!-- Download Modal -->
+       <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="downloadModalLabel">Choose Download Option</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Select a download option:</p>
+                    <a href="https://drive.google.com/file/d/1J4vAfeXOvNnHtD_IwMUlkYhDxlwa7aUh/view?usp=drive_link" class="btn google-btn w-100 mb-2">
+                        <i class="fab fa-google-drive"></i> Download via Google Drive
+                    </a>
+                    <a href="https://mega.nz/file/6dkCTazB#fOZZ0n4T8d95L7nZ1T9CTJtt6Aq0mM9zbrYBQ6UMxV0" class="btn mega-btn w-100 mb-2">
+                        <i class="fab fa-megaport"></i> Download via MEGA
+                    <a href="./certificate.pfx" class="btn certify-btn w-100 mb-2">
+                        <i class="fas fa-download"></i> Download certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap 5 JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

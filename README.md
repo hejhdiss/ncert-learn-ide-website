@@ -38,8 +38,8 @@ Click [here](https://hejhdiss.github.io/ncert-learn-ide-website) to download the
 - **RAM**: 2 GB (minimum)
 - **Python**: 3.13.0
 - **Compilers**: GCC and G++
-- **Disk Space**: 940 MB (for IDE, embedded Python, GCC, and G++)
-- **Download Size**: 147 MB
+- **Disk Space**: 886 MB (for IDE, embedded Python, GCC, G++ and without python environment)
+- **Download Size**: 136 MB
 
 ---
 
